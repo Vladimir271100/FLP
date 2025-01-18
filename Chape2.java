@@ -11,7 +11,7 @@ class Charter2{
 
         private static void usingTheOpenNLPLemmatizer() {
                 try{
-                        String[] tokens = new String[]{ "красивого", "ночью", "прыгать", "городе"};
+                        String[] tokens = new String[]{ "красивого", "ночью", "ругать", "городе"};
 
 
                         InputStream posModelIn = new FileInputStream("/home/share/4.142.2.23/openNLPModels/opennlp-ru-ud-gsd-pos-1.2-2.5.0.bin");
